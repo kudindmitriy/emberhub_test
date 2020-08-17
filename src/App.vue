@@ -1,27 +1,28 @@
 <template>
-  <div id="app">
-    <h2>Emerhub form</h2>
-    <PostForm/>
-  </div>
+    <div id="app" class="text-center my-4 mx-auto text-blue-700">
+        <h2 class="text-center text-black font-extrabold">Emerhub form</h2>
+        <PostForm/>
+    </div>
 </template>
 
 <script>
-import PostForm from "./components/PostForm";
+import PostForm from "./components/Form";
 
 export default {
-  name: "app",
-  components: {PostForm}
+    name: "app",
+    components: {PostForm}
 };
 </script>
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin: 60px auto;
-  width: 400px;
+    width: 450px;
+}
+
+h2 {
+    text-shadow: 4px 4px 5px #ccc;
+    font-size: 40px !important;
+    line-height: 36px !important;
+    margin: 0 0 24px !important;
 }
 </style>

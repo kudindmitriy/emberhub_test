@@ -10,6 +10,8 @@
     "@firebase/app": "^0.6.10",
     "@firebase/firestore": "^1.16.4",
     "core-js": "^2.6.5",
+    "dotenv": "^8.2.0",
+    "tailwindcss": "^1.6.2",
     "vue": "^2.6.10",
     "vuejs-progress-bar": "^1.2.2",
     "vuex": "^3.1.1"
